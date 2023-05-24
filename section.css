@@ -1,0 +1,115 @@
+.sec1{
+    width: 50%;
+    height: 800px;
+    float: left;
+    
+    
+}
+#s{
+    z-index: -1;
+}
+.txt1{
+    position: relative;
+    left: 190px;
+    font-size: 70px;
+    color: #8f5849;
+    /* font-family:  -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; */
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.mfo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 200px;    
+}
+.form{
+    width: 340px;
+    height: 50px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid rgb(83, 78, 78);
+    
+}
+.sign{
+    width: 330px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid;
+    color: rgb(68, 60, 60);
+    
+}
+.sign:hover{
+    color: black;
+}
+hr{
+    width:153px;
+    position: relative;
+    right: 100px;
+    
+ } 
+ #go{
+    background-image: url("img/google.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 75px 8px;
+
+ }
+ .lab{
+    position: relative;
+    top: 10px;
+    color: black;
+    opacity: 0.8;
+ }
+.for{
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+#pp{
+    background-color: #0a66c2;
+    color: #fff;
+}
+.mimg{
+    position: relative;
+    top: 70px;
+    z-index: -1;
+}
+.line{
+    display: flex;
+    position: relative;
+    bottom: 7px;
+ }
+ .line1{
+    width: 153px;
+    height: 1px;
+    background-color: black;
+    position: relative;
+    bottom: 10px;
+
+ }
+ .line>:nth-child(2){
+    position: relative;
+    bottom: 18px;
+ }
+ .form:hover{
+    border:2px solid black;
+
+ }
+ #pp:hover{
+    background-color: rgb(26, 26, 90);
+ }
+ .for:hover{
+    color: blue;
+ }
+ h3{
+    position: absolute;
+    left: 300px;
+    top:148px;
+    color: #0a66c2;
+    
+ }
